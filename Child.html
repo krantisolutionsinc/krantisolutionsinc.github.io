@@ -2,15 +2,17 @@
   <head>
     <script type='text/javascript'>
     var myURL = "https://krantisolutionsinc.github.io/Child.html";
+    var parentURL = "https://zenpracticebox.com/Parent.html";
     function postRedirectMessage() {
-      // window.parent.postMessage("message", "https://zenpracticebox.com/Parent.html");    
-      window.parent.postMessage("message", myURL);    
+      window.parent.postMessage("message", parentURL);    
+      // window.parent.postMessage("message", myURL);    
+      console.log("Sent message");
     }
     
     </script>
   </head>
   <body>
-    <h1>Child Frame (v3.0)</h1>
+    <h1>Child Frame (v4.0)</h1>
     <br/>
       <button onclick="postRedirectMessage();">Send Message</button>
   </body>
