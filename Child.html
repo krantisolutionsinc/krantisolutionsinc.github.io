@@ -1,9 +1,10 @@
 <html>
   <head>
     <script type='text/javascript'>
-
+    var myURL = "https://krantisolutionsinc.github.io/Child.html";
     function postRedirectMessage() {
-      window.postMessage("message", "https://zenpracticebox.com/Parent.html");    
+      // window.parent.postMessage("message", "https://zenpracticebox.com/Parent.html");    
+      window.parent.postMessage("message", myURL);    
     }
     
     </script>
