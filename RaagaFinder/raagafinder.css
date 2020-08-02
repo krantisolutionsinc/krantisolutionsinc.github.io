@@ -1,0 +1,150 @@
+body	
+{ 
+  background-color:"#FFFFFF"; 
+  font-family: "Verdana,Arial,Sans-Serif"; 
+  background: #339999;
+}
+.title 
+{ 
+  font-family: "Verdana,Arial,Sans-Serif";
+  color: #FFFFFF;
+  text-align:"left"; 
+  font-size:36pt;
+  font-weight: bold;
+  /* background: #CC6600 url(./img/titleBackground.jpg); */
+  /* margin-left: 20%; margin-right: 20%; */
+} 
+.buttonStyle 
+{ 
+  text-align:"center"; 
+  font-weight: bold; 
+  font-size:08pt; 
+  background-color: "#CCCCFF";
+}
+
+/************************ Different Dialogs *********************/ 
+.dialogStyle 
+{ 
+  background-color: "#666699"; 
+  border-bottom:2px solid black;
+  border-right:2px solid black;
+  font-family: "Verdana,Arial,Sans-Serif"; 
+} 
+.dialog1Style 
+{ 
+  background-color: "#33CCCC"; 
+  border-bottom:2px solid black;
+  border-right:2px solid black;
+  margin-left: 30%; margin-right: 30%;
+  font-family: "Verdana,Arial,Sans-Serif"; 
+} 
+.dialog2Style 
+{ 
+  background-color: "#FFCC66"; 
+  border-bottom:2px solid black;
+  border-right:2px solid black;
+  margin-left: 30%; margin-right: 30%;
+}
+/***************************************************************/
+.titleStyle { text-align:"center"; font-size:14pt; font-weight: bold; margin-left: 20%; margin-right: 20%; }
+.linkStyle { text-align:"left"; font-size:12pt; font-weight: bold; color: #0000FF; cursor: pointer; } 
+.footnoteStyle { text-align:"right"; font-size:10pt; font-style: "italic";} 
+.labelStyle { text-align:"left"; font-size:10pt; font-weight: bold;} 
+.sectionHeadStyle { text-align:"left"; font-size:12pt; font-weight: "bold";} 
+.infoStyle 
+{ 
+  text-align:"left"; 
+  font-size:10pt; 
+  font-family: "Verdana,Arial,Sans-Serif"; 
+}
+.optionStyle { text-align:"left"; font-size:09pt; font-weight: normal;} 
+.labelStyle { text-align:"left"; font-size:09pt; font-weight: bold; } 
+.ctlgroup { border: 5mm solid black; border-width: 2px 2px 2px 2px; padding-left: 200px; }
+.timeStyle { text-align:"right"; font-size:08pt; font-weight: bold; }
+.entryStyle { text-align:"left"; font-size:08pt; font-weight: normal; }
+.ApptTableStyle { border: thin solid #0000FF; background: #33FFCC; }
+.ApptCellStyle { text-align:"right"; font-size:08pt; font-weight: normal; cursor: pointer; }
+.dateTableStyle { border-width: 1px; border-style: solid; border-color: #0000FF; 
+								          background: #33FFCC; }
+.dateCellStyle { border-width: 1px; border-style: solid; border-color: #0000FF; 
+								         text-align:"center"; font-size:08pt; font-weight: bold; 
+																	width: 22px; height: 25px; cursor: pointer; }
+.dateCellNoLinkStyle { border-width: 1px; border-style: solid; border-color: #0000FF; 
+								         text-align:"center"; font-size:08pt; font-weight: bold; 
+																	width: 22px; height: 22px; }
+.dateTableTitleStyle { border-width: 1px; border-style: solid; border-color: #0000FF; 
+								         text-align:"center"; font-size:08pt; font-weight: bold; 
+																	height: 22px; }
+.link08Style { text-align:"right"; font-size:09pt; font-weight: bold; color: #0000FF; 
+               cursor: pointer; text-decoration: underline; } 
+.functionTableStyle { }
+.functionRowStyle { }
+.functionCellStyle { padding: 4px; }
+.functionStyle { background: #CCCC99; font-size:08pt; font-weight: bold; width: 182px; height: 30px; cursor: "pointer"; }
+.menuStyle { background: #CCCC99; font-size:08pt; font-weight: bold; width: 80; height: 20px; }
+.menu2Style { text-align: center; background: #CCCC99; font-size:08pt; font-weight: bold; width: 180; height: 20px; }
+.tinyBtnStyle { background: #CCCC99; font-size:08pt; font-weight: bold; }
+
+.actionStyle { background: #CCCC99; font-size:07pt; font-weight: bold; width: 50; height: 20px; }
+.actionStyleBig { background: #CCCC99; font-size:07pt; font-weight: bold; width: 100; height: 20px; }
+.resTypeStyle { border-width: 1px; border-style: solid; border-color: #0000FF; background: #33FFCC; }
+.resTypeHeadStyle { text-align:"center"; font-size:09pt; font-weight: bold; } 
+.resTypeCellStyle { text-align:"left"; font-size:09pt; font-weight: bold; } 
+	
+.svcTypeStyle { border-width: 1px; border-style: solid; border-color: #0000FF; background: #33FFCC; }
+.svcTypeHeadStyle { text-align:"center"; font-size:09pt; font-weight: bold; } 
+.svcTypeCellStyle { text-align:"left"; font-size:09pt; font-weight: bold; } 
+
+.resMapStyle { border-width: 1px; border-style: solid; border-color: #0000FF; background: #33FFCC; }
+.resMapHeadStyle { text-align:"center"; font-size:09pt; font-weight: bold; }
+.resMapCellStyle { text-align:"center"; font-size:09pt; font-weight: bold; border-width: 2px; border-style: solid; } 
+.proSecHeadStyle { text-align:"center"; font-size:14pt; font-weight: bold; } 
+
+.meetTableStyle { border-width: 1px; border-style: solid; border-color: #0000FF; background: #33FFCC; }
+
+/* Appointment Section - Box Styles */
+.canvassStyle {display: block; position: absolute;}
+.apptHHMMStyle { cursor: "pointer"; text-align: "right"; background-color: "#33FFCC"; display: "block";
+      position: "absolute"; font-size: "12px"; font-weight: "bold"; }
+.apptHHMMStyle2 { cursor: "pointer"; text-align: "right"; background-color: "#FF6666"; display: "block";
+      position: "absolute"; font-size: "12px"; font-weight: "bold"; }
+.apptAMPMStyle { cursor: "default"; text-align: "right"; background-color: "#33FFCC"; display: "block";
+      position: "absolute"; font-size: "12px"; font-weight: "bold"; }
+.apptNoneStyle { cursor: "pointer"; text-align: "right"; background-color: "#33FFCC"; display: "block";
+      position: "absolute"; font-size: "12px"; font-weight: "bold"; }
+.apptNoneStyle2 { cursor: "pointer"; text-align: "right"; background-color: "#FF6666"; display: "block";
+      position: "absolute"; font-size: "12px"; font-weight: "bold"; }
+.apptEditStyle { cursor: "pointer"; text-align: "center"; background-color: "#00CC00"; display: "block";
+      position: "absolute"; font-size: "12px"; font-weight: "bold"; border-style: "solid"; border-width: "thin";}
+.apptEditStyle2 { cursor: "pointer"; text-align: "center"; background-color: "#FFFF00"; display: "block";
+      position: "absolute"; font-size: "12px"; font-weight: "bold"; border-style: "solid"; border-width: "thin";}
+.apptOOFStyle { cursor: "pointer"; text-align: "center"; background-color: "#669966"; display: "block";
+      position: "absolute"; font-size: "12px"; font-weight: "bold"; border-style: "solid"; border-width: "thin";}
+.apptOOFStyle2 { cursor: "pointer"; text-align: "center"; background-color: "#FF00FF"; display: "block";
+      position: "absolute"; font-size: "12px"; font-weight: "bold"; border-style: "solid"; border-width: "thin"; }
+.calHeadStyle {position: absolute; display: "block"; text-align: "center"; background-color: "#CCCC99"; display: "block";
+      font-size: "12px"; font-weight: "bold"; border-style: "solid"; border-width: "thin";}
+
+/* Appointment Search Style */
+.searchTitleStyle { text-align:"center"; font-size:14pt; font-weight: bold;  }
+.searchLabelStyle { text-align:"left"; font-size:10pt; font-weight: bold;  }
+.searchValueStyle { text-align:"left"; font-size:08pt; font-weight: normal;  }
+.searchResStyle { text-align:"center"; font-size:08pt; font-weight: normal; }
+.searchCellStyle { text-align:"center"; } 
+.searchBtnStyle { background: #CCCC99; font-size:08pt; font-weight: bold; }
+
+/* Control Panel Style */
+.ctlTitleStyle { text-align:"center"; font-size:14pt; font-weight: bold;  }
+.ctlTitle1Style { text-align:"center"; font-size:12pt; font-weight: bold;  }
+.ctlTextStyle { text-align:"left"; font-size:10pt; font-weight: normal;  }
+.ctlHeadStyle { text-align:"center"; font-size:09pt; font-weight: bold; } 
+.ctlCellStyle { text-align:"center"; font-size:09pt; font-weight: normal; } 
+
+/************************ Link Appearance *********************/ 
+A:link {color: #333399; text-decoration: none; }
+A:visited {color: #333399; text-decoration: none; }
+A:active {color: #333399; text-decoration: none; }
+A:hover {font-weight:bold; color: red;}
+/***************************************************************/
+
+
